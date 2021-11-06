@@ -33,24 +33,55 @@ main{
     border-radius: 5px;
     border-style: solid;
     border-color: #00cc66;
-    top: 125px;
-    left: 250px;
+    top: 155px;
+    left: 5px;
     
+}
+
+#cities{
+    position:relative;
+    background-color: #3385d6;
+    color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #3385d6;
+    top: 155px;
+    left:5px;
 }
 
 input{
     position: relative;
+    height: 30px;
     width: 550px;  
     top: 125px;
-    left: 250px; 
+    left: 350px; 
 }
 
 #result{
     position: relative;
-    top: 125px;
+    top: 200px;
 }
 
 label[for="country"]{
     display: none;
 }
+
+table{
+    position:relative;
+    border-collapse: collapse;
+    width: 100%;
+    top: 200px;
+    left: 20px;
+}
+tr{
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: #bdd7f1;
+}
+
+tr:nth-child(odd){
+    background-color: white;
+}
+
 
